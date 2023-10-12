@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let bnbPackageVersion: Version = "1.8.0-3"
+let bnbPackageVersion: Version = "1.8.0-4"
 
 let package = Package(
     name: "BNBResources",
@@ -11,7 +11,9 @@ let package = Package(
     products: [
         .library(
             name: "BNBResources",
-            targets: ["BNBResources"]
+            targets: [
+                "BNBResources"
+            ]
         ),
     ],
     dependencies: [
